@@ -1,0 +1,94 @@
+/* Classe per l'immagine di sfondo */
+.img{
+    background-image: url(background.jpg);
+    background-size: cover;
+    max-width: 1920px;
+    width: 100%;
+    max-height: 1080px;
+    height: 100%;
+    color: green;
+}
+/* Riquadro trasparente per il contenuto */
+.border{
+    background:rgba(0,0,0,0.5);
+    width: 1200px;
+    height: 750px;
+    border-radius: 20px;
+    margin-top: 70px;
+    margin-left: 300px;
+    margin-right: 50px
+    padding: 50px;
+}
+/* Classe per il logo. */
+.Logo{
+    width: 250px;
+    text-align: center;
+    margin-top: 40px;
+}
+/* Classe per l'H1 de1 logo. */
+.Logo-Text{
+    font-family:'Varela Round', sans-serif;
+    color: limegreen;
+    text-align: center;
+    margin-top:10px;
+}
+.Container{
+    text-align: center;
+}
+/* Classe per La NavBar. */
+.nav{
+    text-align: center;
+    background-color: limegreen;
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+/* Classe per Checkbox. */
+.checkbox{
+    display: inline;
+}
+/* Elemento span - valido per tutti.  */
+span{
+    font-family:'Varela Round', sans-serif;
+    color: white;
+    font-size: 15px;
+    display: block;
+}
+/* Classe del Div Sezioni per dare spazio dal bordo.  */
+.Row{
+    padding-left: 100px
+}
+/* Dimensione freccia di direzione per gli span in sezione */
+.Direction{
+    font-size: 10px;
+    display: inline;
+}
+/* titolo per ogni monopattino */
+h2{
+    font-family:'Varela Round', sans-serif;
+    color: white;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+/* Barra di stato per Gino22 */
+.Gino22{
+    background-color: orange;
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+}
+/* Barra di stato per Mike24 */
+.Mike24{
+    background-color: limegreen;
+    width: 550px;
+    height: 30px;
+    border-radius: 5px;
+}
+/* Barra di stato per Fede154 */
+.Fede154{
+    background-color: red;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+}
